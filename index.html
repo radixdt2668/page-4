@@ -52,7 +52,7 @@
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod 
                  </p>
             </div>
-            <table  width="70%" cellpadding="15" style="border-collapse: collapse ; margin: 0 auto;">
+            <table  width="40%" cellpadding="15" style="border-collapse: collapse ; margin: 0 auto;">
                 <tr class="bg-th" style="text-align: left; border: none;">
                     <th>Company</th>
                     <th>Contact</th>
@@ -132,6 +132,7 @@
                   name="fname"
                   value=""
                   placeholder="First name"
+                  required
                 />
             </div>
             <div class="col-6">
@@ -142,6 +143,7 @@
               name="Lname"
               value=""
               placeholder="Last name"
+              required
             />
             </div>
             <div class="col-12">
@@ -151,11 +153,12 @@
               id="email"
               name="email"
               placeholder="Email Id"
+              required
             />
             </div>
             <div class="col-6">
                 <label for="mobile-num">Mobile Number:</label><br>
-                <input type="tel" placeholder="Mobile Number" name="mobile-num" id="mobile-num">
+                <input type="tel" placeholder="Mobile Number" name="mobile-num" id="mobile-num" required>
             </div>
             <div class="col-6">
                 <label for="mobile-num">Website:</label><br>
@@ -163,7 +166,7 @@
             </div>
             <div class="col-6">
             <label for="date">Date:</label><br>
-            <input type="date"/>            
+            <input type="date" required/>            
             </div>
             <div class="col-6">
                 <label for="date-time">Date & Time:</label><br>
@@ -194,6 +197,7 @@
               type="file"
               id="folder"
               name="folder"
+              required
               style="width: auto;  margin-bottom: 20px; padding: 15px 0; border: none;"
             />
             </div>
@@ -203,7 +207,7 @@
               type="color"
               id="color"
               name="color"
-              style="border: 1px solid red; height: 30px; width: 100px; margin-bottom: 20px;"
+              style="border: 1px solid red; padding: 0; height: 30px; width: 100px; margin-bottom: 20px;"
             />
             </div>
             <div class="col-12">
@@ -247,7 +251,6 @@
      </form>
     </div>  
 </section>
-
    <!-- form-end -->
    <!-- google map -->
    <section>
