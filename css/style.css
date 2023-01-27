@@ -368,10 +368,13 @@ iframe{
     margin: 0 auto;
     display: block;
 }
-input,select{
+input{
     width: 100%;
     padding: 15px;
     border: 1px solid #CFCFCF;
+    color: #1D1D1D;
+    font-size: 18px;
+    font-weight: 400;
 }
 form .col-6{
     width: calc(50% - 30px);
@@ -380,14 +383,15 @@ form .col-6{
 label{
     font-size: 18px; font-weight: 700; margin-bottom: 10px; display: inline-block; color: #414141;
 }
-::placeholder,input[type="text"],
-[type="email"],
-[type="date-time"],
-[type="file"],
-[type="password"],
-[type="datetime-local"],
-[type="tel"],
-[type="date"]{
+select,[type="date"],[type="datetime-local"]{
+    color: #CFCFCF;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #CFCFCF;
+}
+::placeholder{
     color: #DADADA;
     font-size: 18px;
     font-weight: 400;
